@@ -1,1 +1,114 @@
-Gopi Yanala - CCI indicator
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio Contribution: AI Agent Stock Prediction</title>
+  <style>
+    /* Base & Layout */
+    * { box-sizing: border-box; margin:0; padding:0; }
+    body { font-family: 'Segoe UI', Tahoma, sans-serif; background: #f0f2f5; color:#333; line-height:1.6; }
+    .container { max-width:900px; margin: -30px auto 60px auto; padding:0 20px; }
+
+    /* Header */
+    header { background: linear-gradient(135deg, #667eea, #764ba2); color:#fff; padding:40px 20px; text-align:center; }
+    header h1 { font-size:2.5em; }
+
+    /* Sections */
+    section { background:#fff; margin:40px 0; padding:20px 30px; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.1); }
+    section h2 { margin-bottom:15px; color:#444; }
+
+    /* Tables */
+    table { width:100%; border-collapse:collapse; margin-top:15px; }
+    th, td { padding:12px 15px; }
+    th { background:#667eea; color:#fff; text-align:left; }
+    tr:nth-child(even) { background:#f9f9f9; }
+
+    /* Lists */
+    ul { margin:10px 0 0 20px; }
+    li { margin-bottom:8px; }
+
+    /* Links */
+    a { color:#764ba2; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    a.repo { color:#ffeb3b; font-weight:bold; }
+
+    /* Screenshots */
+    .contributions img { max-width:100%; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.15); margin-top:15px; }
+
+    /* Appendix */
+    .appendix ul { list-style:none; padding-left:0; }
+    .appendix li { margin:8px 0; }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Yanala Portfolio: CCI Indicator with Crew AI Agent Stock Prediction</h1>
+  </header>
+  <div class="container">
+
+    <section id="intro">
+      <h2>Introduction</h2>
+      <p>This project implements an AI-driven stock prediction system by integrating a custom Commodity Channel Index (CCI) indicator with CrewAI agents. I contributed by designing and implementing the CCI calculation engine, developing a Streamlit-based user interface, integrating real-time and historical stock data fetching, building CrewAI agents for investment recommendations, and establishing a backtesting framework with unit and integration tests. All code is publicly available at <a class="repo" href="https://github.com/yanalagopikrishna/Gopi-AI-Agent-Stock-Prediction" target="_blank">GitHub Repository</a>.</p>
+    </section>
+
+    <section id="overview">
+      <h2>Project Overview &amp; Sprint Objectives</h2>
+      <table>
+        <tr><th>Sprint</th><th>Objective</th></tr>
+        <tr><td>Sprint 1<br><small>Feb 1–3, 2025</small></td><td>Minimal viable product: Streamlit UI + baseline CCI indicator</td></tr>
+        <tr><td>Sprint 2<br><small>Feb 8–15, 2025</small></td><td>Customization features + real-time &amp; historical data integration</td></tr>
+        <tr><td>Sprint 3<br><small>Mar 17, 2025</small></td><td>CrewAI investment decision integration &amp; initial testing</td></tr>
+        <tr><td>Sprint 4<br><small>Apr 1–22, 2025</small></td><td>Performance/scalability tests, unit/integration tests &amp; backtesting framework</td></tr>
+      </table>
+    </section>
+
+    <section id="work-summary">
+      <h2>Work Summary</h2>
+      <p>Key tasks I completed:</p>
+      <ul>
+        <li>CCI indicator calculation engine (20 h + debugging)</li>
+        <li>Streamlit UI with customization controls &amp; real-time refresh</li>
+        <li>Data fetching via yfinance &amp; yahooquery APIs</li>
+        <li>CrewAI agent setup &amp; task orchestration for buy/sell/hold recommendations</li>
+        <li>Unit &amp; integration tests for robustness</li>
+        <li>Backtesting framework to evaluate CCI-based strategies</li>
+      </ul>
+      <div class="contributions">
+        <h3>Key Contribution Screenshots</h3>
+        <img src="1.jpg">
+        <img src="2.jpg">
+        <img src="3.jpg">
+        <img src="4.jpg">
+        <img src="5.jpg">
+      </div>
+    </section>
+
+    <section class="appendix" id="commits">
+      <h2>Appendix: Commit History</h2>
+      <table>
+        <tr><th>Date</th><th>Commit</th><th>Description</th><th>Story</th><th>Task</th></tr>
+        <tr><td>Feb 3, 2025</td><td>8df1d1731997324652db90a1508c8814d88c239b</td><td>CCI Indicator</td><td>CCI</td><td>CCI.1</td></tr>
+        <tr><td>Feb 8, 2025</td><td>991d8f6754da60c3b34218492ff3d87e212084dc</td><td>CCI.2</td><td>CCI</td><td>CCI.3</td></tr>
+        <tr><td>Feb 15, 2025</td><td>7eb568370f3c501a4024b7b457c5abaff90e2986</td><td>CCI real time data code added</td><td>CCI</td><td>CCI.3</td></tr>
+        <tr><td>Mar 17, 2025</td><td>c7b158ea82981d269c34a1fd0e49d18c52683689</td><td>CCI investment decision code added</td><td>CCI</td><td>CCI.8</td></tr>
+        <tr><td>Apr 1, 2025</td><td>4a34a45426c55d5282cb890e522066f72b482bf2</td><td>Unit &amp; integration tests for CCI</td><td>CCI</td><td>CCI.10</td></tr>
+        <tr><td>Apr 22, 2025</td><td>76c980f6895df54aed6bfd7dbeccfd1510ddd73d</td><td>CCI indicator backtest code</td><td>CCI</td><td>CCI.11</td></tr>
+      </table>
+    </section>
+
+    <section class="appendix" id="hours">
+      <h2>Appendix: Task Hours Documents</h2>
+      <ul>
+        <li><a href="Gopi%20Yanala%20Sprint%201%20Task%20Hours.docx" download>Sprint 1 Task Hours</a></li>
+        <li><a href="Gopi%20Yanala%20Sprint%202%20Task%20Hours.docx" download>Sprint 2 Task Hours</a></li>
+        <li><a href="Gopi%20Yanala%20Sprint%203%20Task%20Hours.docx" download>Sprint 3 Task Hours</a></li>
+        <li><a href="Gopi%20Yanala%20Sprint%204%20Task%20Hours.docx" download>Sprint 4 Task Hours</a></li>
+      </ul>
+    </section>
+
+  </div>
+</body>
+</html>
+
